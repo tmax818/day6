@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <p>
+          Turn any HTML element into a grid container by setting its display
+          property to grid. This gives you the ability to use all the other
+          properties associated with CSS Grid. In CSS Grid, the parent element
+          is referred to as the container and its children are called items.
+        </p>
+        <p>
+          Simply creating a grid element doesn't get you very far. You need to
+          define the structure of the grid as well. To add some columns to the
+          grid, use the grid-template-columns property on a grid container as
+          demonstrated below: <br />
+          <code>
+            .container { display: grid; grid-template-columns: 50px 50px; }
+          </code>
+          <br />
+          The number of parameters given to the grid-template-columns property
+          indicates the number of columns in the grid, and the value of each
+          parameter indicates the width of each column.
+        </p>
+
+        <p>
+          You can use absolute and relative units like px and em in CSS Grid to
+          define the size of rows and columns. You can use these as well: fr:
+          sets the column or row to a fraction of the available space, auto:
+          sets the column or row to the width or height of its content
+          automatically, %: adjusts the column or row to the percent width of
+          its container.
+        </p>
+
+        <p>
+          So far in the grids you have created, the columns have all been tight
+          up against each other. Sometimes you want a gap in between the
+          columns. To add a gap between the columns, use the grid -column-gap
+          property like this:
+        </p>
+      </div>
+      <div class="container2">
+        <p>This is container two I have to show a difference!</p>
+      </div>
+    </section>
+  </body>
+</html>
